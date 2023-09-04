@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Bubbling Example</title>
+</head>
+<body>
+  <div id="parent">
+    <form>
+    <button id="child">Click me</button>
+</form>  
+</div>
+
+  <script>
+    const parent = document.querySelector('div');
+    const form = document.querySelector('form');
+    const child = document.querySelector('button');
+
+    parent.addEventListener('click', function() {
+      alert('Parent div clicked');
+    },{capture:true});
+    form.addEventListener('click', function() {
+      alert('form div clicked');
+    });
+
+    child.addEventListener('click', function(e) {
+        alert('Button clicked');
+    });
+  </script>
+</body>
+</html>
