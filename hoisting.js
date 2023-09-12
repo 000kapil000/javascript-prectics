@@ -6,10 +6,10 @@
 // }
 
 // var x= 5
-x=33
+x= 20
 var fun= function(){
+    x=33
     console.log(x);
-    x= 20
 }
 
 fun()
