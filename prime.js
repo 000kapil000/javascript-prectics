@@ -8,3 +8,6 @@ function isPrime(){
         }
     }
 }
+
+
+console.log(isPrime(7));
