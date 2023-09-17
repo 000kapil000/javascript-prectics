@@ -1,5 +1,10 @@
+// que :  valid anagram
+//  anagram is a word or phase formed by rearranging the latters of a diffrent word or phase . using all the original latter exectly once .
+
+
 const isAnagram=function(s,t){
-    // return s.split("").sort().join("")===t.split("").sort().join("")  (this is poor solution)
+    // (this is poor solution)
+    // return s.split("").sort().join("")===t.split("").sort().join("") 
 if(s.length !== t.length)return false
 const map=new Map()
 for(const c of s){
@@ -13,11 +18,14 @@ for (const c of t){
     if(map.get(c)===0)map.delete(c)
 }
 
-if(map.size>0)return false
 return true
 }
 
 
 s="anagram";
 t="nagaram"
+// s="rat";
+// t="car"
+
+
 console.log(isAnagram(s,t));
