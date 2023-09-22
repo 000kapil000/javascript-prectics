@@ -13,7 +13,7 @@ for(const c of s){
 }
 
 for (const c of t){
-    if(!map.has(c))return false
+    if(!map.has(c))return false 
     map.set(s,map.get(c)-1)
     if(map.get(c)===0)map.delete(c)
 }

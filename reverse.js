@@ -31,7 +31,7 @@
 // with the help of reduce 
 
 // function reverced(str){
-//     return  str.split("").reduce((acc,itt)=>itt+acc,"");
+//     return  str.split("").reduce((acc,itt)=>itt+acc," ");
     
 // }
 // const str=" Hello this is striong"
