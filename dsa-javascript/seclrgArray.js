@@ -9,7 +9,7 @@ for(let i=0; i<arr.length; i++){
     second=arr[i]
 }
 }
-return large
+return second 
 }
 
 arr=[2,3,4,1,6,8,78,9,0,34,2,1,6,7,9, 9,33]
