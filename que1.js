@@ -1,13 +1,20 @@
 const student=[
-    {name:"aman",age:23,marks:40},
-    {name:"shivam",age:20,marks:50},
-    {name:"kunj",age:19,marks:60},
-    {name:"Hansh",age:18,marks:80},
-    {name:"kinjal",age:28,marks:90},
-    {name:"ramesh",age:16,marks:100},
-    {name:"alex",age:22,marks:45},
+    {id:1,name:"aman",age:23,marks:40},
+    {id:2,name:"shivam",age:20,marks:50},
+    {id:3,name:"kunj",age:19,marks:60},
+    {id:4,name:"Hansh",age:18,marks:80},
+    {id:5,name:"kinjal",age:28,marks:90},
+    {id:6,name:"ramesh",age:16,marks:100},
+    {id:7,name:"alex",age:22,marks:45},
 ]
 //return name of student in uppercase 
+let agecal=student.filter((arr)=>{
+ return arr.id!==2 
+ 
+
+})
+console.log(agecal);
+
 let names=student.map((arr)=>{
     return  arr.name.toLocaleUpperCase();
 })
