@@ -33,6 +33,6 @@ function globalinearSearch(arr,target){
   }
   
   const checkArray= [4,5,6,7,0,1,2,4];
-  const pin = 4
+  const pin = 1
   
   console.log(globalinearSearch(checkArray,pin));

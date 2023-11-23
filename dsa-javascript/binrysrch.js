@@ -29,3 +29,7 @@ console.log(nums);
 const target = 55;
 console.log(BinarySearch(nums,target));
 
+let x= 0.2+0.1
+let y=0.3
+console.log(x==y);
+console.log(x);

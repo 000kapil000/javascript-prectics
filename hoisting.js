@@ -13,3 +13,13 @@ var fun= function(){
 }
 
 fun()
+
+var x=10;
+
+function sco(){
+    var x= 8
+    console.log(x);
+}
+
+sco()
+console.log(x);

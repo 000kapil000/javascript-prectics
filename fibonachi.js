@@ -9,3 +9,14 @@ function fibo(num){
 }
 const num=10;
 console.log(fibo(num));
+
+
+
+// function recur(n,series=[0,1]){
+//     if (n<=2) {
+//         return series
+//     }
+//     const next = series[series.length-1]+ series[series.length-2]
+//     return recur(n-1[...series,next])
+// }
+

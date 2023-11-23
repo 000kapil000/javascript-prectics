@@ -10,3 +10,5 @@ let str="hello world this is beautifull ";
 })
 
 console.log(reversed.join(" "));
+
+

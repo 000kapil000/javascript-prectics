@@ -7,7 +7,8 @@ var containDuplicate=function(num){
     // }
 
     const set=new Set(num)
-    return set.size!==num.length
+    return set
+    // return set.size!==num.length
 }
 
 let num=[1,2,3,4,1]

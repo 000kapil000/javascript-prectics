@@ -11,10 +11,11 @@ console.log(uniq);
 
 //with use of set 
 
-// const arrr = [1, 2, 3, 1, 2, 3];
+const arrr = [1, 2, 3, 1, 2, 3];
 
-// const set = new Set(arrr);
+const set = new Set(arrr);
 
-// const uniqueArr = Array.from(set);
+const uniqueArr = Array.from(set);    
+// this convert object into array 
 
-// console.log(uniqueArr); // [1, 2, 3]
+console.log(set); // [1, 2, 3]

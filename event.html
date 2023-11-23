@@ -9,8 +9,28 @@
     <button id="child">Click me</button>
 </form>  
 </div>
+<div>
+  <input type="text" id="inputBox1">
+  <input type="text" id="inputBox2">
+  <button id="copyButton">Copy Value</button>
+  
+</div>
+<script>
+// Get references to the input boxes and the button
+const inputBox1 = document.getElementById('inputBox1');
+const inputBox2 = document.getElementById('inputBox2');
+const copyButton = document.getElementById('copyButton');
 
-  <script>
+// Add a click event listener to the button
+copyButton.addEventListener('click', function() {
+  // Set the value of inputBox2 to the value of inputBox1
+  inputBox2.value = inputBox1.value;
+});
+
+
+</script>
+
+  <!-- <script>
     const parent = document.querySelector('div');
     const form = document.querySelector('form');
     const child = document.querySelector('button');
@@ -25,6 +45,6 @@
     child.addEventListener('click', function(e) {
         alert('Button clicked');
     });
-  </script>
+  </script> -->
 </body>
 </html>

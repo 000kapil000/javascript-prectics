@@ -10,6 +10,6 @@ const arr=[
 const filterdarr=arr.filter((newobj)=>{
     return newobj.id!==3
 })
-console.log(arr);
+console.log(filterdarr);
 const arrr=[]
 console.log(typeof(NaN));

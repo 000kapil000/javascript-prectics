@@ -44,6 +44,7 @@ function reser(str){
  let dummy='';
  for(i=0; i<str.length;i++){
   dummy = str[i]+dummy
+
  }
  return dummy
 }
