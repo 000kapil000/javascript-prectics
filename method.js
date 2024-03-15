@@ -1,24 +1,27 @@
-let latters=["a","b","c"]
+// let latters=["a","b","c"]
 
-latters.splice(0,1,"x","y");
+// latters.splice(0,1,"x","y");
 
-console.log(latters);  
+// console.log(latters);  
 
-var arr={0:'a',1:'b',2:'c',length:3 }
+// var arr={0:'a',1:'b',2:'c',length:3 }
 
-var arr1=Array.from(arr)
-console.log(arr1);
+// var arr1=Array.from(arr)
+// console.log(arr1); 
 
 // var arr2=[...arr];
 // console.log(arr2);
 
 let num =[1,2,4,5,6,7,3,7,8]
-
+let lenu=[]
 for(let i=0 ; i<=num.length;i++){
     if (num[i]==7) {
         continue
-    }
-    console.log(num[i]);
+      }else{
+        
+        lenu.push(num[i])
+      }
+      console.log(lenu);
 }
 
 

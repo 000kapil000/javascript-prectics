@@ -10,5 +10,8 @@ function isPalindrome(arg){
 
 
 }
-const arg="12321"
+const arg=12321
 console.log(isPalindrome(arg));
+
+let str="hello"
+console.log(str.split("").reverse().join(""));

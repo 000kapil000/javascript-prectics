@@ -18,3 +18,5 @@ function findPositive(arr,k){
 const arr=[2,3,4,7,11]
 const k=5
 console.log(findPositive(arr,k));
+let m=0
+console.log(m++);

@@ -26,3 +26,30 @@ function merge(left ,right){
 }
 arr=[8,4,1,5,6,2,3,7]
 console.log(mergeSort(arr));
+
+
+function bublesort(arr){
+    const length = arr.length;
+  let swapped;
+
+  do {
+    swapped = false;
+    for (let i = 0; i < length - 1; i++) {
+      if (arr[i] > arr[i + 1]) {
+        // Swap elements if they are in the wrong order
+        // const temp = arr[i];
+        // arr[i] = arr[i + 1];
+        // arr[i + 1] = temp;
+
+        [arr[i],arr[i+1]]=[arr[i+1], arr[i]]
+
+        swapped = true;
+      }
+    }
+  } while (swapped);
+
+    return arr
+}
+
+console.log(bublesort(arr));
+
